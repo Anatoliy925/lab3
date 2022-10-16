@@ -2,7 +2,6 @@ package lab3.task1.shop;
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Check {
     private HashMap<Product, Integer> products;

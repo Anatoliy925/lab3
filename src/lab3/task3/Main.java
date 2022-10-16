@@ -57,6 +57,7 @@ public class Main {
 
         System.out.println("Average price of products in the storage: " + AveragePrice.getAveragePriceOfAllProducts(shop.storage));
         System.out.println("Filtering storage by quantity: " + FilterAndSort.filterByQuantity(shop.storage, 280));
+        System.out.println("Sorting storage by quantity: " + FilterAndSort.sortByQuantity(shop.storage));
         System.out.println("Most popular product: " + MostPopularProduct.getMostPopularProduct(shop));
         System.out.println("Highest income in a day: ");
         HighestIncomeInADay.getHighestIncome(day1, shop);

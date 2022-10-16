@@ -4,14 +4,11 @@ import lab3.task1.shop.Customer;
 import lab3.task1.shop.Product;
 import lab3.task1.shop.Shop;
 import lab3.task1.shop.Storage;
-import lab3.task3.service.MostPopularProduct;
-import lab3.task3.service.SummaryOfPurchases;
+
 
 import java.util.Date;
 import java.util.HashMap;
-import java.util.concurrent.Callable;
 
-import static lab3.task3.service.SummaryOfPurchases.getSummary;
 
 public class Main {
     public static void main(String[] args) {
